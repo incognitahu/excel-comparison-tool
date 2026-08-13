@@ -25,8 +25,6 @@ Aplikasi web untuk membandingkan data dari dua file Excel berdasarkan satu atau 
 
 Repository: [github.com/incognitahu/excel-comparison-tool](https://github.com/incognitahu/excel-comparison-tool)
 
-## Cara Menjalankan
-
 ### 0. Clone Repository
 
 Clone project dari GitHub, lalu masuk ke folder project:
