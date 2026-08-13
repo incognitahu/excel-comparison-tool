@@ -23,6 +23,19 @@ Aplikasi web untuk membandingkan data dari dua file Excel berdasarkan satu atau 
 
 ## Cara Menjalankan
 
+Repository: [github.com/incognitahu/excel-comparison-tool](https://github.com/incognitahu/excel-comparison-tool)
+
+## Cara Menjalankan
+
+### 0. Clone Repository
+
+Clone project dari GitHub, lalu masuk ke folder project:
+
+```bash
+git clone https://github.com/incognitahu/excel-comparison-tool.git
+cd excel-comparison-tool
+```
+
 ### 1. Database
 
 Jalankan Apache dan MySQL melalui XAMPP, lalu buka:
