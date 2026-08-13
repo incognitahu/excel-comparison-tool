@@ -18,7 +18,7 @@ function DataTable({ title, rows, headers, emptyMessage }) {
         <p>{emptyMessage}</p>
       ) : (
         <div className="table-wrapper">
-          <table>
+          <table className="unmatched-table">
             <thead>
               <tr>
                 {headers.map((header) => (
@@ -54,7 +54,7 @@ function MatchedTable({ matched, headersA, headersB }) {
         <p>Tidak ada data yang cocok.</p>
       ) : (
         <div className="table-wrapper">
-          <table>
+          <table className="matched-table">
             <thead>
               <tr>
                 {headersA.map((header) => (

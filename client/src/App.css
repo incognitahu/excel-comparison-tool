@@ -236,6 +236,24 @@ table {
   font-size: 13px;
 }
 
+.unmatched-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.unmatched-table th,
+.unmatched-table td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+.matched-table {
+  width: max-content;
+  min-width: 100%;
+  table-layout: auto;
+}
+
 th,
 td {
   padding: 9px 12px;
